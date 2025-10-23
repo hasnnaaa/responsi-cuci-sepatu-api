@@ -15,7 +15,7 @@ app.use("/items", itemRoutes);
 
 // Rute dasar
 app.get("/", (req, res) => {
-  res.send("API Cuci Sepatu Berjalan");
+  res.send("API Cuci Sepatu Berjalan. Responsi Modul 1 Hasnaa' Amalia Q (21120123140155)");
 });
 
 app.listen(port, () => {
