@@ -1,4 +1,3 @@
-````markdown
 # REST API Daftar Barang Cuci Sepatu
 
 ## Deskripsi Umum
@@ -48,7 +47,7 @@ Contoh struktur data sepatu yang disimpan (sesuai dengan tabel Supabase Anda):
 
 ## Bonus Fitur
 
-API ini juga dilengkapi dengan fitur filter berdasarkan status, misalnya: `GET /items?status=Selesai` akan menampilkan hanya sepatu yang sudah selesai dicuci.
+API ini juga dilengkapi dengan fitur filter berdasarkan status, misalnya: GET /items?status=Selesai akan menampilkan sepatu yang sudah selesai, dan GET /items?status=Sedang%20Dicuci akan menampilkan sepatu yang masih dalam proses cuci. 
 
 ## Alur Kerja API
 
@@ -153,14 +152,11 @@ API ini juga dilengkapi dengan fitur filter berdasarkan status, misalnya: `GET /
     PORT=3000
     ```
 5.  Jalankan server dalam mode pengembangan: `npm run dev`
-6.  API akan berjalan di `http://localhost:3000`.
+6.  API akan berjalan di `http://localhost:3000` (di sini saya menggunakan PORT 3001). 
 
 ## Link Deploy (Vercel)
 
 API ini telah di-deploy dan dapat diakses publik melalui link berikut:
 
-**(Ganti dengan link Vercel Anda\!)**
-`httpsa://<NAMA-PROYEK-ANDA>.vercel.app/items`
+`cuci-sepatu-api-155.vercel.app`
 
-```
-```
